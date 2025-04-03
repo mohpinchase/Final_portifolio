@@ -1,0 +1,548 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kagiri Peterson</title>
+    <meta name="description" content="Personal website and portfolio of peterson Kagiri, a web developer specializing in web development with modern JavaScript frameworks." />
+    <meta name="author" content="kagiri peterson" />
+       
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="assets/logo.PNG" type="image/x-icon">
+  </head>
+  <body>
+    <!-- Header with Navigation -->
+    <header id="header">
+      <div class="container">
+        <a href="#home" class="logo">Pin_<span>Chase</span></a>
+        <nav id="navbar">
+          <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="social-icons">
+            <a href="https://github.com/pinchase" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/peterson-kagiri-2893742a1" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:contact@example.com" aria-label="Email Contact"><i class="fas fa-envelope"></i></a>
+          </div>
+          <button class="mobile-menu-btn" aria-label="Toggle mobile menu">
+            <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <ul class="mobile-nav-links">
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <div class="mobile-social-icons">
+        <a href="https://github.com/pinchase" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/peterson-kagiri-2893742a1" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/pin_chase?t=MYoEncOo_qRwjVZhHD8V8w&s=09" target="_blank" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
+        <a href="mailto:contact@example.com" aria-label="Email Contact"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h4>Hi there <span>👋</span>, I'm</h4>
+            <h1>Kagiri <span class="logo1">Peterson</span> Muraya</h1>
+            <h2 class="fancy-title">
+              <span class="title-text">Website</span>
+              <span class="title-highlight">Developer</span>
+            </h2>
+            A passionate <span class="highlight">UI/UX Designer</span> and 
+            <span class="highlight">Full-Stack Developer</span> dedicated to crafting seamless digital experiences. 
+            With a strong foundation in <b>front-end and back-end development</b>, I bring ideas to life with 
+            clean code and user-friendly interfaces.
+        </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">
+                View My Work <i class="fas fa-arrow-right"></i>
+              </a>
+              <a href="assets/Peterson.pdf" class="btn btn-outline">
+                <i class="fas fa-download"></i> Download CV
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="profile-container">
+              <img
+                src="assets/pin_Chase.jpg"
+                alt="Muraya profile picture"
+                class="profile-image"
+              />
+              <div class="github-icon">
+                <i class="fab fa-github"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-heading">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a passionate web developer with over 2 years of experience
+              building web applications. My journey in web development began
+              during college where I discovered my passion for creating elegant
+              solutions to complex problems.
+            </p>
+            <p>
+              I specialize in frontend development with Javascript and have extensive
+              experience with backend technologies using Django. I enjoy working
+              in collaborative environments and constantly strive to improve my
+              skills and learn new technologies.
+            </p>
+            <p>
+              When I'm not coding, you'll find me hiking, watching movies, reading tech blogs, or
+              contributing to open-source projects.
+            </p>
+          </div>
+          <div class="about-skills">
+            <div>
+              <h3>My Skills</h3>
+              <div class="skills-container">
+                <span class="skill-badge">JavaScript</span>
+                <!-- <span class="skill-badge">TypeScript</span> -->
+                <span class="skill-badge">React</span>
+                <!-- <span class="skill-badge">Node.js</span>
+                <span class="skill-badge">Express</span>
+                <span class="skill-badge">Next.js</span>
+                <span class="skill-badge">Redux</span> -->
+                <span class="skill-badge">Bootstrap</span>
+                <span class="skill-badge">HTML5</span>
+                <span class="skill-badge">CSS3</span>
+                <span class="skill-badge">Git</span>
+                <span class="skill-badge">Mysql</span>
+                <span class="skill-badge">Python</span>
+                <!-- <span class="skill-badge">PostgreSQL</span>
+                <span class="skill-badge">Docker</span>
+                <span class="skill-badge">AWS</span> -->
+              </div>
+            </div>
+            <div class="services-grid">
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-code"></i>
+                </div>
+                <h4>Frontend</h4>
+                <p>Modern, responsive UI with HTML, CSS and JavaScript</p>
+              </div>
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-server"></i>
+                </div>
+                <h4>Backend</h4>
+                <p>Scalable APIs with Django, Python, and Django Rest Framework</p>
+              </div>
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-palette"></i>
+                </div>
+                <h4>UI/UX</h4>
+                <p>Intuitive interfaces with focus on accessibility and usability</p>
+              </div>
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-database"></i>
+                </div>
+                <h4>Database</h4>
+                <p>Efficient data management with SQL databases</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 class="section-heading">My Projects</h2>
+        <p class="section-desc">
+          Here are some of the projects I've worked on. Each project showcases different skills and 
+          technologies I've used throughout my development journey.
+        </p>
+        <div class="projects-grid">
+          <!-- Project Card 1 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="assets/ABOUT.jpg" alt="Symones Home-spa" />
+            </div>
+            <div class="project-info">
+              <h3>Symones Home-spa</h3>
+              <p>Massage Bliss: A soothing online experience crafted with HTML, CSS, and JavaScript</p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS3</span>
+                <span>Javascript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/pinchase" target="_blank" class="btn btn-sm btn-outline">
+                  <i class="fab fa-github"></i> Code
+                </a>
+                <a href="https://symones-home-spa.netlify.app/" target="_blank" class="btn btn-sm">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+      
+          <!-- Project Card 2 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="assets/task.jpg" alt="Task Management App" />
+            </div>
+            <div class="project-info">
+              <h3>Task Management App</h3>
+              <p>A collaborative task management application with real-time updates, task assignment, and progress tracking features.</p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/pinchase" target="_blank" class="btn btn-sm btn-outline">
+                  <i class="fab fa-github"></i> Code
+                </a>
+                <a href="https://taskmanagerbypeterson.netlify.app/" target="_blank" class="btn btn-sm">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project Card 3 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="assets/weather.jpg" alt="Weather Dashboard" />
+            </div>
+            <div class="project-info">
+              <h3>Weather App</h3>
+              <p>An interactive weather dashboard that displays current weather conditions and forecasts for multiple locations.</p>
+              <div class="project-tech">
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>Weather API</span>
+                <span>CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/pinchase" target="_blank" class="btn btn-sm btn-outline">
+                  <i class="fab fa-github"></i> Code
+                </a>
+                <a href="https://weatherappbypeterson.netlify.app/" target="_blank" class="btn btn-sm">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+              </div>
+            </div>
+            </div>
+
+              <!-- Project Card 4 -->
+           <div class="project-card">
+            <div class="project-img">
+              <img src="assets/vekev (2).jpeg" alt="Weather Dashboard" />
+            </div>
+            <div class="project-info">
+              <h3>Vekev Elegant Timepieces</h3>
+              <p>An online store for classic and luxurious watches.</p>
+              <div class="project-tech">
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/pinchase" target="_blank" class="btn btn-sm btn-outline">
+                  <i class="fab fa-github"></i> Code
+                </a>
+                <a href="https://vekev.vercel.app/" target="_blank" class="btn btn-sm">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div> 
+
+            <!-- Project Card 5 -->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="assets/braymell.jpg" alt="Weather Dashboard" />
+              </div>
+              <div class="project-info">
+                <h3>Bray-Mell TradeMasters</h3>
+                <p>Trading Company, Re-did their whole landing page website </p>
+                <div class="project-tech">
+                  <span>JavaScript</span>
+                  <span>HTML</span>
+                  <!-- <span>Weather API</span> -->
+                  <span>CSS</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/pinchase" target="_blank" class="btn btn-sm btn-outline">
+                    <i class="fab fa-github"></i> Code
+                  </a>
+                  <a href="https://braymell.netlify.app/" target="_blank" class="btn btn-sm">
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+              <!-- Project Card 6 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="assets/TKF.png" alt="Weather Dashboard" />
+            </div>
+            <div class="project-info">
+              <h3>The Knowledge Forge</h3>
+              <p>Crafted a desktop view of an online learning platform</p>
+              <div class="project-tech">
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <!-- <span>Weather API</span> -->
+                <span>CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/pinchase" target="_blank" class="btn btn-sm btn-outline">
+                  <i class="fab fa-github"></i> Code
+                </a>
+                <a href="https://the-knowledge-forge.netlify.app/" target="_blank" class="btn btn-sm">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-heading">Experience & Education</h2>
+        
+        <div class="experience-grid">
+          <!-- Work Experience -->
+          <div class="experience-column">
+            <h3 class="column-heading">
+              <i class="fas fa-briefcase"></i> Work Experience
+            </h3>
+            <div class="timeline">
+              <!-- Experience Item 1 -->
+              <div class="timeline-item">
+                <h4>Frontend Developer</h4>
+                <p class="timeline-place">at Upwork</p>
+                <p class="timeline-date">2024 - Present</p>
+                <p class="timeline-desc">I work as a freelancer web developer for hire.</p>
+              </div>              
+                      
+              <!-- Experience Item 2 -->
+              <div class="timeline-item">
+                <h4>Junior Web Developer</h4>
+                <p class="timeline-place">at IYF, Kenya</p>
+                <p class="timeline-date">2023 - 2024</p>
+                <p class="timeline-desc">Created responsive websites and implemented UI components. Worked closely with designers to ensure pixel-perfect implementation of designs.</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Education -->
+          <div class="experience-column">
+            <h3 class="column-heading">
+              <i class="fas fa-graduation-cap"></i> Education
+            </h3>
+            <div class="timeline">
+                   
+              <!-- Education Item 1 -->
+              <div class="timeline-item">
+                <h4>Bachelor's in  Science in Information Communication and Technology</h4>
+                <p class="timeline-place">at KCA University</p>
+                <p class="timeline-date">2022 - Present</p>
+                <p class="timeline-desc">Coursework included Data Structures, Algorithms, Database Systems, and Web Development.</p>
+              </div>
+                <!-- Education Item 2 -->
+                <div class="timeline-item">
+                  <h4>Certificate in Computer Programming</h4>
+                  <p class="timeline-place">at IYF Weekend Academy</p>
+                  <p class="timeline-date">Feb 2024 - June 2024 </p>
+                  <p class="timeline-desc">Web Development.</p>
+                </div>
+                  <!-- Education Item 3 -->
+              <div class="timeline-item">
+                <h4>Certificate in Respinive Web Design</h4>
+                <p class="timeline-place">at FreeCodeCamp</p>
+                <p class="timeline-date">2023- 2024</p>
+                <p class="timeline-desc">Responsive Web Design.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2 class="section-heading">Get In Touch</h2>
+        <p class="section-desc">
+          Feel free to reach out if you have any questions, want to discuss a project, 
+          or just want to connect. I'm always open to new opportunities and collaborations.
+        </p>
+        
+        <div class="contact-grid">
+          <!-- Contact Information -->
+          <div class="contact-info">
+            <!-- Email Card -->
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <p>petersonmuraya404@gmail.com</p>
+                <a href="mailto:contact@example.com">Send an email</a>
+              </div>
+            </div>
+            
+            <!-- Phone Card -->
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Phone</h3>
+                <p>+254 713932835</p>
+              </div>
+            </div>
+            
+            <!-- Location Card -->
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Location</h3>
+                <p>Nairobi, Kenya</p>
+              </div>
+            </div>
+            
+            <!-- Social Media -->
+            <div class="contact-social">
+              <h3>Connect with me</h3>
+              <div class="social-links">
+                <a href="https://github.com/pinchase" target="_blank" aria-label="GitHub Profile">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/peterson-kagiri-2893742a1" target="_blank" aria-label="LinkedIn Profile">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://x.com/pin_chase?t=MYoEncOo_qRwjVZhHD8V8w&s=09" target="_blank" aria-label="Twitter Profile">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Contact Form -->
+          <div class="contact-form-container">
+            <form id="contact-form" class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="pinchase" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="petersonmuraya404@gmail.com.com" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="How can I help you?" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Your message here..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Pin_<span>Chase</span></h3>
+            <p>Building exceptional digital experiences</p>
+          </div>
+          
+          <div class="footer-social">
+            <a href="https://github.com/pinchase" target="_blank" aria-label="GitHub Profile">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/peterson-kagiri-2893742a1" target="_blank" aria-label="LinkedIn Profile">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://x.com/pin_chase?t=MYoEncOo_qRwjVZhHD8V8w&s=09" target="_blank" aria-label="Twitter Profile">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="mailto:petersonmuraya404@gmail.com" aria-label="Email Contact">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+          
+          <button id="scroll-to-top" aria-label="Scroll to top">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+        
+        <div class="footer-bottom">
+          <p>&copy; <span id="current-year"></span> crafted with ❤️ by <i><a href="https://kagiri.netlify.app/">Kagiri Peterson</a></i>. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
