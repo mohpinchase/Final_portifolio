@@ -37,3 +37,12 @@ Contact - Ways to connect with me
 📌 How to Use
 
 To view the portfolio, simply open the index.html file in a browser or deploy it to a web server.
+
+🤙 Contact me
+I have added a contact form at the bottom for those who would like to talk about their projects or want to  talk to me about anything else.
+
+The Project is deployed on github pages and the live link to the portifolio is here 👇 
+
+          https://mohpinchase.github.io/Final_portifolio/
+
+
