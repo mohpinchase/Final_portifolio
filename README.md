@@ -1,4 +1,4 @@
-Kagiri Peterson - Portfolio
+**Kagiri Peterson - Portfolio**
 
 Welcome to my portfolio! This website showcases my skills and projects as a UI/UX designer and full-stack developer. Here, you'll find details about my work, experience, and the technologies I specialize in.
 
@@ -41,8 +41,6 @@ To view the portfolio, simply open the index.html file in a browser or deploy it
 🤙 Contact me
 I have added a contact form at the bottom for those who would like to talk about their projects or want to  talk to me about anything else.
 
-The Project is deployed on github pages and the live link to the portifolio is here 👇 
-
-          [Kagiri Peterson](https://mohpinchase.github.io/Final_portifolio/).
+The Project is deployed on github pages and the live link to the portifolio is here [Kagiri Peterson](https://mohpinchase.github.io/Final_portifolio/).
 
 
