@@ -43,6 +43,6 @@ I have added a contact form at the bottom for those who would like to talk about
 
 The Project is deployed on github pages and the live link to the portifolio is here 👇 
 
-          https://mohpinchase.github.io/Final_portifolio/
+          [Kagiri Peterson](https://mohpinchase.github.io/Final_portifolio/).
 
 
